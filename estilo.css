@@ -1,16 +1,54 @@
+body .b1 {
+  background-color: blue;
+  background-repeat: no-repeat; 
+  background-size: cover;
+}
+
+body .imagem {
+  background-image: url("imagens/fundo.jpeg");
+  background-color: blue;
+  background-repeat: no-repeat; 
+  background-size: cover;
+}
+body .fundo1 {
+  background-image: url("imagens/fundo.jpeg");
+  background-repeat: no-repeat;  
+  background-color: blue;
+  background-size: cover; 
+  color:black;
+  font-size:22px;
+  text-align:justify;
+
+}
+
+body .b2 {
+ background-color: black;
+ background-repeat: no-repeat; 
+ background-size: cover;
+}
 
 body .tifany{
             background-color:#40E0D0;
-
         }
+
 body .vermelho{
             background: red;
         }
+
 body .verde{
             background: green;
         }
+
 body .preto{
             background: black;
+       }
+
+body .branco{
+            background: white;
+        }
+
+body .royal{
+            background: #120A8F;
         }
 
 h1
@@ -18,12 +56,13 @@ h1
   color:blue;
   text-align:center;
 }
+
 h2
 {
   color:black;
   text-align:center;
-
 }
+
 h3
 {
   color:black;
@@ -41,7 +80,7 @@ p.p1
 p.p2
 {
   font-family:"Courier";
-  color:black;
+  color:white;
   font-size:22px;
   text-align:center;
 }
