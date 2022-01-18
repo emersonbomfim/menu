@@ -1,17 +1,74 @@
-body
-{
-background-color: 40E0D0;
-}
+
+body .tifany{
+            background-color:#40E0D0;
+
+        }
+body .vermelho{
+            background: red;
+        }
+body .verde{
+            background: green;
+        }
+body .preto{
+            background: black;
+        }
+
 h1
 {
-color:blue;
-text-align:center;
+  color:blue;
+  text-align:center;
 }
-p
+h2
 {
-font-family:"Courier";
-color:red;
-font-size:22px;
-text-align:center;
+  color:black;
+  text-align:center;
+
 }
- 
+h3
+{
+  color:black;
+  }
+
+
+p.p1
+{
+  font-family:"Courier";
+  color:white;
+  font-size:22px;
+  text-align:center;
+}
+
+p.p2
+{
+  font-family:"Courier";
+  color:black;
+  font-size:22px;
+  text-align:center;
+}
+
+
+
+
+
+ @import url(tiny.css) (min-width:300px);
+ @import url(small.css) (min-width:600px);
+ @import url(big.css) (min-width:900px);
+</style>
+@media screen and (max-width: 300px) {
+ /* estilos */
+}
+@media screen and (max-width: 600px) {
+/* Estilos */
+}
+
+@media screen and
+(min-width: 200px) and
+(max-width: 640px)
+
+@media screen and
+(min-width: 600px) and
+(orientation:landscape)
+
+@media screen and
+(max-width: 380px) and
+(orientation:portrait)
